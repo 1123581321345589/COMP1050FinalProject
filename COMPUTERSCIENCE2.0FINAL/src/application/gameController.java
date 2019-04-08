@@ -5,9 +5,11 @@ import java.util.ResourceBundle;
 
 import javafx.fxml.FXML;
 import javafx.geometry.Point2D;
+import javafx.scene.Parent;
 import javafx.scene.control.Button;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Rectangle;
 
@@ -42,12 +44,13 @@ public class gameController {
 	@FXML private Rectangle bar9;
 	@FXML private Rectangle bar10;
 	@FXML private Rectangle barend;
+	@FXML private AnchorPane pane;
 	
 	private MainMenuController MC;
 	
 	public void initialize(URL arg0, ResourceBundle arg1) {
 		//On initalize load the obsticles class and set their animation path
-	
+		new Obsticles(pane);
 	}
 	
 	public void setMC(MainMenuController MC) {
