@@ -36,6 +36,7 @@ public class MainMenuController {
 		this.main = main;
 	}
 	
+	@FXML
 	public void handlebtn(ActionEvent event) {
 		
 		try {
@@ -60,11 +61,13 @@ public class MainMenuController {
 		}
 		
 	}
+	@FXML
 	public void handlebtn2(ActionEvent event) {
 		
 		btn2.setText("btn2 WORKS");
 		
 	}
+	@FXML
 	public void handlebtn3(ActionEvent event) {
 		
 		btn3.setText("btn3 WORKS");
