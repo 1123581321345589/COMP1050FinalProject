@@ -4,6 +4,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.geometry.Point2D;
 import javafx.scene.Parent;
 import javafx.scene.control.Button;
@@ -13,7 +14,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Rectangle;
 
-public class gameController {
+public class gameController implements Initializable {
 
 	@FXML
 	private Button keyboard;
@@ -48,13 +49,17 @@ public class gameController {
 	
 	private MainMenuController MC;
 	
-	public void initialize(URL arg0, ResourceBundle arg1) {
-		//On initalize load the obsticles class and set their animation path
-		new Obsticles(pane);
-	}
 	
 	public void setMC(MainMenuController MC) {
 		this.MC = MC;
+	}
+	
+	private Main start;
+
+	public void setMain(Main start) {
+		
+		this.start = start;
+		
 	}
 	
 	
@@ -216,28 +221,34 @@ public class gameController {
 			{
 			direction = 1;
 			if(validMov(direction)) {
-				player.setLayoutX(player.getLayoutX() + 2);
+				player.setLayoutX(player.getLayoutX() + 5);
 			}
 			}
 		else if(event.getCode() == KeyCode.LEFT) {
 			direction = 2;
 			if(validMov(direction)) {
-				player.setLayoutX(player.getLayoutX() - 2);
+				player.setLayoutX(player.getLayoutX() - 5);
 			}
 		}
 		else if(event.getCode() == KeyCode.UP) {
 			direction = 4;
 			if(validMov(direction)) {
-			player.setLayoutY(player.getLayoutY() - 2);
+			player.setLayoutY(player.getLayoutY() - 5);
 			}
 		}
 		else if(event.getCode() == KeyCode.DOWN) {
 			direction = 3;
 			if(validMov(direction)) {
-			player.setLayoutY(player.getLayoutY() + 2);
+			player.setLayoutY(player.getLayoutY() + 5);
 			}
 		}
 		
+	}
+
+
+	@Override
+	public void initialize(URL arg0, ResourceBundle arg1) {
+		new Obsticles(pane, startTile);
 	}
 	
 	
