@@ -1,8 +1,11 @@
 Project name: 2D space game
 
-Description: 2D game keeps high scores of top 5 players, score based on time played plus certain bouns
+Description: This project is a simple 2D maze game, in which the player controls a circular object through a geometric maze using the arrow keys on the keyboard.
+The goal is to the reach green square at the end of the maze without touching any of the obstacles,
+and to collect as many points as possible. The points collected will be displayed at the game’s conclusion
 
 Deliver a fully functional 2D game that can be downloaded and played by anybody
 
 
+Team Members:
 Aaron, Saatvik, Anish
