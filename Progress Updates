@@ -1,39 +1,41 @@
-Week 1:
+Week 1 (Oct 29 - Nov 5):
 
 What we did last week:
-We had a group change and brainstormed ideas for our game.
-What we did this week:
-We started making the plans for our java application. We decided on a maze type game.
-What we will do next week:
-We are going to start developing the backend next week.
+- We had a group change and brainstormed ideas for our game.
 
-Week 2:
+What we did this week:
+- We started making the plans for our java application. We decided on a maze type game.
+
+Blocking / Challenges:
+- We are going to start developing the backend next week.
+
+Week 2 (Nov 5 - Nov 12):
 
 What we did last week:
-We made the plans and chart for our game:
+- We made the plans and chart for our game:
 
 What we did this week:
-All of us started developing the main title screen of the game and making sure that all the buttons events worked: We finished the title screen but ran into problems with the background image not loading.
+- All of us started developing the main title screen of the game and making sure that all the buttons events worked: We finished the title screen but ran into problems with the background image not loading.
 
-What we will do next week:
-Now that we have developed the loading screen for the game, we can work on the collision of the main object in the game and the obstacles in the game.
+Blocking / Challenges:
+- Now that we have developed the loading screen for the game, we can work on the collision of the main object in the game and the obstacles in the game.
 
 
-Week 3:
+Week 3 (Nov 12 - Nov 19):
 
 What we did last week:
-We made the main title screen of the game:
+- We made the main title screen of the game:
 
 What we did this week:
-We worked heavily on both the main level and the collision of the main object with the walls, and made the object moveable using keybinds. We had a few glitches in the game where the circle would go through the walls and we had problems coding the obstacles.
+- We worked heavily on both the main level and the collision of the main object with the walls, and made the object moveable using keybinds. We had a few glitches in the game where the circle would go through the walls and we had problems coding the obstacles.
 
-What we will do next week: 
-Finish working on the main level, fix the glitches, and finish making the obstacles. After this we will develop the score screen at the end of the game.
+Blocking / Challenges:
+- Finish working on the main level, fix the glitches, and finish making the obstacles. After this we will develop the score screen at the end of the game.
 
-Week 4:
+Week 4 (Nov 19 - Nov 26):
 
 What we did last week:
-We developed the main game and the collision between the circle and the walls and started coding the obstacles.
+- We developed the main game and the collision between the circle and the walls and started coding the obstacles.
 
 What we did this week:
-We finished coding the obstacles and making the collisions between the ball and the obstacle smoother. We could not make the obstacles anything other than circles because it would be too complicated.
+- We finished coding the obstacles and making the collisions between the ball and the obstacle smoother. We could not make the obstacles anything other than circles because it would be too complicated.
