@@ -1,5 +1,5 @@
 Project name: 2D space game
-
+https://github.com/1123581321345589/COMP1050FinalProject
 Description:
 
 WHAT: This project is a simple 2D maze game, in which the player controls a circular object through a geometric maze using the arrow keys on the keyboard.
@@ -17,14 +17,23 @@ Deliver a fully functional 2D game that can be downloaded and played by anybody.
 inheritance (main extends application implements, obstacle inherits game controller), and generics (obstacles, constructor class
 
 Plan:
-Week 1: Get project sketch and design done. Brainstorm ideas, and design some of the objects, menus, and level(s) we will be having.
-Create a general breakdown of concepts to be used, classes/libraries to be implemented (if any), and design general UI
+Week 1 (Oct 29 - Nov 5): 
+- Get project sketch and design done.
+- Brainstorm ideas, and design some of the objects, menus, and level(s) we will be having.
+- Create a general breakdown of concepts to be used, classes/libraries to be implemented (if any), and design general UI
 
-Week 2: Work on level design and get it completed, as well as player/object/obstacle design. Bug fixing
+Week 2 (Nov 5 - Nov 12):
+- Work on level design and get it completed, as well as player/object/obstacle design. 
+- Bug fixing
 
-Week 3: Ensure all movements are smooth and work correctly, and add more variation. Big fixing
+Week 3 (Nov 12 - Nov 19):
+- Ensure all movements are smooth and work correctly, and add more variation.
+- Big fixing
 
-Week 4: Create high score tracker, and add more obstacles. Fix any sort of clipping that may occur. Bug fixing
+Week 4 (Nov 19 - Nov 26):
+- Create high score tracker, and add more obstacles. 
+- Fix any sort of clipping that may occur. 
+- Bug fixing
 
 Getting started:
 Install (as developer): If you are part of the Git repository, simply clone the project and import it into Eclipse or the IDE
