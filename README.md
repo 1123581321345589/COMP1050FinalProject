@@ -1,18 +1,18 @@
-2D Space Game
-Description
+# 2D Space Game
+## Description
 
-What? 
+### What? 
 
 This project is a simple 2D maze game, in which the player controls a circular object through a geometric maze using the arrow keys on the keyboard.
 The goal is to the reach green square at the end of the maze without touching any of the obstacles,
 and to collect as many points as possible. The points collected will be displayed at the game’s conclusion
 
-Why? 
+### Why? 
 
 The purpose of this project is to implement our knowledge of JavaFX and its versatility and compatibility and make a simple,
 yet entertaining 2D game. We used what we learned over the course of the year to create a fun final project with plenty of expandability.
 
-How? 
+### How? 
 
 Using Eclipse and JavaFX, we used XML files and multiple classes to create game objects and event handlers. Assign events to buttons
 and keyboard presses in order to move the object. Use live movements as a score update, and create autonomous obstacles using JavaFX.
